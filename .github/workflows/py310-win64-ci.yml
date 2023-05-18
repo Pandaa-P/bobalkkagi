@@ -42,4 +42,4 @@ jobs:
         with:
           name: bobalkkagi-py310-win64
           path: dist/*.exe
-          retention-days: 3
+          retention-days: 4
