@@ -1,4 +1,4 @@
-name: Python 3.8 (x64)
+name: Python 3.8.10 (x64)
 
 on: [push]
 
@@ -16,10 +16,10 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.8.10
         uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.8.10"
           architecture: x64
 
       - name: Install Poetry
@@ -40,6 +40,6 @@ jobs:
       - name: 'Upload PyInstaller Artifact'
         uses: actions/upload-artifact@v3
         with:
-          name: bobalkkagi-py310-win64
+          name: bobalkkagi-py3810-win64
           path: dist/*.exe
           retention-days: 4
