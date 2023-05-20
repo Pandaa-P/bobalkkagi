@@ -258,4 +258,4 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = "3.8.9"
+python-versions = "3.8"
